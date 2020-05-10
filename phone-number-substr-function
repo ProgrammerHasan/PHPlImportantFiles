@@ -1,0 +1,6 @@
+@php
+$firstThree = substr($payment->phone,0,3);
+$lastFive = substr($payment->phone,6);
+@endphp
+{{--first 3 and last 5  digit will shaow--}}
+<td>{{  $firstThree }}***{{ $lastFive }}</td>
